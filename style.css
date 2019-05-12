@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+p{
+	font-family: 'Amatic SC', cursive;
+	font-stretch: expanded;
+	font-size: 100px;
+	color: white;
+}
+}
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+h4,h2{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+
+}
+.mean{
+	border-bottom: 2px solid black;
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+
+
+}
+body{
+	background-image:url(images/back.jpg);
+
+}
+.freedom{
+	border-bottom: 2px solid black;
+	font-family:  'Oswald', sans-serif;
+}
+.kid{
+	border: 1px solid black;
+	padding: 3px;
+	margin: 5px;
+	float: right;
+}
+.contact{
+	border-radius: 50px;
+	border: 1px solid black;
+	margin: 4em;
+}
+.free{
+	border-radius: 50px;
+	border: 1px solid black;
+	margin: 4em;
+}
+}
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 50px;
+	color: white;
+
+
+}
+hr{
+	margin-left: 30px;
+}
+/* Removes the bullets on ul list in a slide show */
+.nobullets{
+	list-style-type:none;
+	padding-left:0;
+}
+
+/*Adds a margin underneath each image in the slide show */
+.boxstyle{
+	margin-bottom:20px;
+}
+
+/*Centers the images and sets a max width of 700px */
+.wb-carousel{
+	max-width:1400px;
+	margin:20px auto;
+}
+
+main{
+	max-width: 1000px;
+	margin:0 auto
+}
+
+header{
+padding: 5px;
+}
+nav{
+	margin-bottom:30px;
+}
+footer{
+	text-align:center;
+	background-color: #32373D;
+	color: white;
+	padding:10px;
+	margin-top: 20px;
+}
+label{
+	color: white;
+}
+/*Controls for the modal slide show*/
+.controls{
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;
+}
+a.controls:hover{
+	text-decoration:none;
+}
+
+.next {
+    float:right;
+    text-align:right;
+}
+/* CSS for the icons page */
+.contact-icons{
+	text-align:center;
+}
+
+.contact-icons i{
+	font-size: 100px;
+	margin-top: 40px;
+}
+
+.contact-icons h2{
+	margin-bottom: 50px;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}

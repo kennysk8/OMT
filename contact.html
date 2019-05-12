@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>Grid Template</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="This is the website description">
+      <!--Google Font -->
+      <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+      <!-- Bootstrap Stylesheet-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	 <!--Font Awesome -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" >
+      <!-- Custom styles - must be the last stylesheet -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+        <p class="text-center"> ONE MORE TRY </p>
+
+</header>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  	    </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+   <ul class="navbar-nav">
+
+      			<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      			<li class="nav-item"><a class="nav-link" href="video-template.html">Video</a></li>
+      			<li class="nav-item"><a class="nav-link" href="gallery-modal.html">Gallery</a></li>
+      			<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+
+  </ul>
+
+ </div>
+
+</nav>
+
+<main>
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-12">
+        <h1>Contact OMT</h1>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-sm-6">
+        <img class="contact"src="images/contact.jpg" height="350px" width="350px" alt="board">
+    <div class="coni"> </div>
+    </div>
+    <div class="col-sm-6">
+    <div>
+        <form role="form" method = "post" action="contactAction.php">
+            <!-- "contactAction.php" is the form action and holds the scripts that run when the form is submitted.-->
+    <div class="form-group"> <!--"form-group" adds Bootstrap styling. -->
+        <label for = "describe">Message:</label>
+        <textarea class="form-control"  id = "describe" name = "describe" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+      <label for= "name">Name: </label>
+      <input type = "text" class="form-control" id = "name" name = "name" />
+    </div>
+    <div class="form-group">
+        <label for= "email">Email (optional): </label>
+        <input type = "email"  class="form-control" id = "email" name = "email" />
+    </div>
+    <div class="form-group">
+      <label for = "phone">Phone (optional): </label>
+      <input type = "text" class="form-control"  id = "phone" name = "phone" />
+    </div>
+    <div class="form-group">
+      <input class="btn btn-primary" type="submit" value = "Submit" name ="submit" />
+    </div>
+      </form>
+    </div>
+        <!--end contactform-->
+    </div>
+    </div>
+    </div>
+
+</main>
+
+  <h1>Let's Stay in Touch</h1>
+    </div>
+    </div>
+    <div class="row ">
+    <div class="col-sm-4">
+    <a href="#"><i class="fa fa-github" aria-hidden="true"></i>
+
+  <h2>Github</h2></a>
+
+    </div>
+    <div class="col-sm-4">
+    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+  <h2>Linked In</h2></a>
+
+    </div>
+    <div class="col-sm-4">
+    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
+
+<h2>Email</h2></a>
+
+    </div>
+    </div>
+    </div>
+
+</main>
+
+<footer>
+
+  <small class="fine-print">&copy;Copyright One More Try</small>
+
+</footer>
+      <!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
